@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wag na tampo abebe tukutktutktut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Bati na ang abebee</button>
+        <div class="popup" id="popup">
+            <img src="bati na.JPG">
+            <p>yeyyy dahil jan date ko ang abebe tuuuu hhihiih</p>
+        <button type="button" onclick="closePopup()">I love youu hihihihi</button>
+        </div>
+    </div>
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
+</script>
+</body>
+</html>
